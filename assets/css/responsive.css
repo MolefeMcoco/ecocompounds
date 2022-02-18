@@ -1,0 +1,150 @@
+#introduction .intro_containers {
+    padding: 0px;
+} 	 
+
+.right-text .right-text-content {
+    margin-top: 80px;
+}
+
+.about_page {
+    padding: 100px 0px;
+}
+
+@media screen and (max-width:767px){
+	.about_page {
+    padding: 50px 0px;
+}
+
+	#header_banner_container{
+		height: 500px;
+		background-attachment: scroll;
+	}
+
+	.header_banner_content{
+		padding: 145px 0px;
+	}
+
+	.header_banner_content p{
+		margin-bottom: 50px;
+	}
+
+	#introduction{
+		margin:100px 0px;
+	}
+
+	#introduction .intro_containers {
+    padding: 0px;
+    margin: 0px 0px 70px 0px;
+	}
+
+	.left-image, .right-text {
+    min-height: 602px;
+	}
+
+	.item_name{
+		position: relative;
+		 right: 0px; 
+    	 bottom: 0px;
+    	 text-align: center;
+    	 margin-bottom: 50px;
+	}
+
+	.products{
+		text-align: center;		
+	}
+
+	.products ul{
+		list-style-type: none;
+		font-weight: bold;		
+	}
+
+	.products p{
+		margin-bottom: 50px;
+	}
+
+	.contacts::before{
+		content: none;
+		
+	}
+
+	.contacts {
+	    margin: 50px 0px;
+	    padding: 50px 0px;
+	}
+
+	.contact_form{
+		margin-bottom: 50px;
+	}
+
+	.contacts .social_media{
+		position: relative;
+		text-align: center;
+		margin-top: 25px;
+		
+	}
+
+	.contacts .social_media i{
+		
+		text-shadow: 1px 1px 2px #000;
+	}
+
+	.remove-padding{
+		padding-right: 0px;
+    	padding-left: 0px;
+	}
+
+	#introduction .intro_containers i{
+		font-size: 3rem;
+	}
+
+	.portfolio img{
+		margin: 5px auto;
+	}
+
+}
+
+@media screen and (max-width:555px){
+	.right-text .right-text-content  h2{
+		font-size: 2rem;
+	}
+
+	#introduction .intro_containers i{
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width:425px){
+	.header_banner_content {
+	    padding: 57px 0px;
+	}
+
+	.header_banner_content h1{
+		font-size: 34px;
+	}
+
+	#header_banner_container{
+		height: 300px;
+	}
+	.right-text .right-text-content {
+	    margin-top: 25px;
+	}
+
+	.footer{
+		padding:20px;
+		font-size:14px;
+	}
+
+	#introduction h3{
+		font-size: 1.25rem;
+	}
+
+	#introduction{
+		margin:50px 0px;
+	}
+
+	.header_banner_content p{
+		margin-bottom: 0px;
+	}
+}
+
+}
